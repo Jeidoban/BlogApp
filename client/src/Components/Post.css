@@ -1,0 +1,40 @@
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.postBlock {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background-color: #DBDBDB;
+    border-top: solid lightgray 1px;
+    border-radius: 3px;
+    transition: background-color 0.15s
+}
+
+.postBlock:hover {
+    background-color: #C8C8C8;
+    cursor: pointer;
+}
+
+.postContainer {
+    border: solid #717472 1px;
+    border-radius: 3px;
+
+}
+
+.pullMargin {
+    margin-bottom: -15px;
+}
+
+.preserveWhiteSpace {
+    white-space: pre-wrap;
+}
