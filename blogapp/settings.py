@@ -25,7 +25,10 @@ SECRET_KEY = '1t172%c^s*n3dqdg64t@-astej180#v#j+x!svzmmzn@mkw5qb'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'www.jadewestover.com',
+    'jadewestover.com'
+]
 
 
 # Application definition
