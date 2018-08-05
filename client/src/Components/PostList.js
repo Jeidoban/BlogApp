@@ -23,7 +23,7 @@ class PostList extends Component {
 
         if (method === "GET") delete options.body;
 
-        fetch("/projects/blogapp/api/posts/", options)
+        fetch("/api/posts/", options)
             .then(res => res.json())
             .then(obj => {
                 if (method === "POST") { // If the request was successful...

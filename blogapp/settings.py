@@ -26,8 +26,9 @@ SECRET_KEY = '1t172%c^s*n3dqdg64t@-astej180#v#j+x!svzmmzn@mkw5qb'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'www.jadewestover.com',
-    'jadewestover.com'
+    'www.blogapp.jadewestover.com',
+    'blogapp.jadewestover.com',
+    'localhost',
 ]
 
 
